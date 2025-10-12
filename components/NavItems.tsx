@@ -15,13 +15,7 @@ const NavItems = () => {
     }
 
     return (
-        // <ul className='flex gap-10 justify-center py-5'>
-        //     <li>Dashboard</li>
-        //     <li>Search</li>
-        //     <li>Watchlist</li>
-        // </ul>
-
-        // We are rendering the list of navigation items using map function and they're coming from lib/constants.ts file
+        // We are rendering the list of navigation items using map function, and they're coming from lib/constants.ts file
         <ul className='flex flex-col sm:flex-row p-2 gap-3 sm:gap-10 font-medium'>
             {
                 NAV_ITEMS.map(({ href, label }) => (
